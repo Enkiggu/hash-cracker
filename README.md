@@ -27,7 +27,7 @@ A Python-based basic hash cracking tool that supports multiple hash algorithms. 
 Install the dependencies using pip:
 
 ```bash
-pip install tqdm colorama pyfiglet
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ cd hash-cracker
 ```
 2. **Run the application**:
 ```bash
-python main.py
+python hash_cracker.py
 ```
 3. **Follow the on-screen prompts**:
   - Select your language (English or Turkish).
